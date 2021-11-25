@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@700&display=swap');
+
+body{
+    background-color: rgb(168, 168, 168);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    width: 100vw;
+}
+
+
+.header__logo--lpf {
+    margin-top: 30px;
+    width: 125px;
+    height: 175px;
+}
+
+
+nav{
+    background-color: rgb(101, 194, 211);
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    margin-top: 50px;
+    padding: 80px;
+    text-align: center;
+}
+
+footer img{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+footer img:hover{
+    width: 80px;
+    height: 80px;
+    transition: all 2s;
+}
+
+ul{
+    list-style: none;
+    a{
+        color: white;
+    }
+    li{
+        padding: 2.0rem;
+    }
+}
+
+
+.header__nav--menu li{
+    display: inline-block;
+}
+
+.header__nav--menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.activo{
+    background-color: #000000;
+    color: white;
+    padding: 18px;
+}
+
+
+.header__titulo--principal{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo3{
+    background-color: rgb(96, 96, 206);
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100vw;
+}
+
+
+#maradona{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#maradona img{
+    height: 400px;
+    width: 320px;
+}
+
+.maradoImages{
+    height: 460px;
+    width: 450px;
+}
+
+.maradoniano{
+    height: 460px;
+    width: 700px;
+}
+
+.videoHighlight{
+    width: 350px;
+    height: 250px;
+}
+
+
+#fechaDiecinueve{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.tituloFecha{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+#fechaDieciocho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+table{
+    border: black solid 1px;
+    width: 40%;
+    text-align: center;
+}
+
+#tablasPrimera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#tablasReserva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#clubes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Operaciones */
+
+$gray: #8b8b8b;
+$blue: #6060ce;
+$espaciado1: 10px;
+$espaciado2: 5px;
+
+.box_uno{
+    background-color: $gray;
+    padding: $espaciado1 + $espaciado2;
+}
+
+.box_dos{
+    background-color: $blue;
+}

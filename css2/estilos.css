@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Merriweather:wght@700&display=swap');
+
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "diego1 diego2 diego3 diego4"
+    "video1 video2 video3 video4"
+    "footer footer footer footer";
+    margin: 0;
+}
+
+
+header {
+    grid-area: header;
+    text-align: center;
+    width: 100vw;
+}
+
+
+.logo {
+    margin-top: 30px;
+    width: 125px;
+    height: 175px;
+}
+
+
+nav{
+    grid-area: nav;
+    background-color: rgb(101, 194, 211);
+    text-align: center;
+}
+
+.diego1{
+    grid-area: diego1;
+}
+
+.diego2{
+    grid-area: diego2;
+}
+
+.diego3{
+    grid-area: diego3;
+}
+
+.diego4{
+    grid-area: diego4;
+}
+
+.video1{
+    grid-area: video1;
+}
+
+.video2{
+    grid-area: video2;
+}
+
+.video3{
+    grid-area: video3;
+}
+
+.video4{
+    grid-area: video4;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: black;
+    margin-top: 50px;
+    padding: 80px;
+    text-align: center;
+}
+
+footer img{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+footer img:hover{
+    width: 80px;
+    height: 80px;
+    transition: all 2s;
+}
+
+nav ul{
+    list-style: none;
+}
+
+
+a{
+    color: white;
+}
+
+ul li a{
+    padding: 2.0rem;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin: 12px;
+    padding: 12px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.activo{
+    background-color: #000000;
+    color: white;
+    padding: 18px;
+}
+
+
+.titulo{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    grid-area: diego;
+    text-align: center;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo3{
+    background-color: rgb(96, 96, 206);
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100vw;
+}
+
+
+#maradona{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#maradona img{
+    height: 400px;
+    width: 320px;
+}
+
+.maradoImages{
+    height: 550px;
+    width: 450px;
+}
+
+.maradoniano{
+    height: 550px;
+    width: 700px;
+}
+
+#videoHighlight{
+    width: 450px;
+    height: 250px;
+}
+
+
+#fechaDiecinueve{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.tituloFecha{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+#fechaDieciocho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+
+table{
+    border: black solid 1px;
+    width: 40%;
+    text-align: center;
+}
+
+#tablasPrimera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#tablasReserva{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
